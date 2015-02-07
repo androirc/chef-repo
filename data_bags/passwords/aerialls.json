@@ -1,0 +1,9 @@
+{
+  "id": "aerialls",
+  "password": {
+    "encrypted_data": "hMZcab8AgdVcGudAPykrq3uO4hhgFkuDfy3sfuQvPxct2wtGJpmnVkGacxqp\nS/DtiGZ4EAUfQ0KJkTC4f/ReiZEKUqpB2cPbHlaXGOjzfm7kvgMBTIRAaZMA\nPiNlyeDw1RGQBvnNXQvH4LNLBu0nVJMaVEu1F02Kw0baWBKAhBE=\n",
+    "iv": "4sch4UqUCI/XcytY4O3svw==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}

@@ -26,7 +26,16 @@ module Sshd
 
       # Generate the configuration file.
       # Sort the hash, so Chef doesn't restart if nothing changed but the order
-      config.sort.each do |e|
+      config.sort { |a, b|
+        # Ensure Port is before ListenAddress
+        if a.first == "Port" and b.first == "ListenAddress" then
+          -1
+        elsif b.first == "Port" and a.first == "ListenAddress"
+          1
+        else
+          a <=> b
+        end
+      }.each do |e|
         key, value = e[0], e[1]
 
         # Hashes are conditional blocks, which have to be placed at the end of the file

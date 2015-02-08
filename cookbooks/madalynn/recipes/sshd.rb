@@ -14,7 +14,7 @@ ruby_block 'list_users' do
     node['etc']['passwd'].each do |user, data|
       if data['uid'].to_i >= 1000
         node.override['sshd']['sshd_config']['Match']["User #{user}"] = {
-          'PasswordAuthentication' => 'No'
+          'PasswordAuthentication' => 'no'
         }
       end
     end

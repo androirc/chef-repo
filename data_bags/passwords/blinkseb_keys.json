@@ -4,8 +4,15 @@
     "blinkseb"
   ],
   "clients": [
-
+    "moe",
+    "kodos",
+    "burns",
+    "marge"
   ],
   "search_query": "*",
-  "blinkseb": "STUxi2FtcxmYGeek4g3XYeJhvUXIzlaEXEd52dN94+EXe5woVhmKvOtt5pou\nu02m705JPssJ/RrCFH6NSoXffE0HCHdibl+4f0sCvGGRbsb1r8NBg+hziSdU\n8QKGz+Hp+LDv1CfORC/esEZIggJn0CxA5LVw9llA5BKbRjvMXAgtdWNO5Ceb\npNFjamvtBGkvBOR6ZqFwnsm/Mgsl92BX46dKiI4uDNbW2mbsLEx1CvgO2Ofo\nJMSA4cHupSdRdBPm0sE25+Ae4leuAedC0hto8aTJ8l2LWSh5+10EE7yd157j\nccM7dkxCjN8f7dtvIGoQ6FKG60wDVnBcv/m1oRsOQA==\n"
+  "blinkseb": "VeJO79+v+DeNmBQFjRzlzfVTXJT2mlm31bMBMJgyjpeZ2IKKbqHUQamSbBz6\nGPKKO4KX4QkYZPoo9HpLb02ewdcer8ax7gAaEP2uGgpIajJ7GzjMwN8gDA63\nkSSes2GEWqNoJLfA4T+FwqYifg+CFh8sn+0YIp6wrFJC12f4Skzgvo28cXJo\nj/tA/Cgn3wjZqwK348aeOe2yfSn/NmOReypGYOcXNQN9CwDTE5/jMBUTvObI\n0V3qKUdFRyWOY8K2hYNhjhC5xKcNRaAa8UJPR1Suh1O51hcNsthwp0fmKfyo\nZ+wQ/U1gwOEGJIBikj0OsI5jksADqy+RJqqc1bwKMA==\n",
+  "moe": "LME5p4AAhw5Eu6R/SFiM5SmdfMeeYGa2ftaN0mRwHyoXQlkdM4yc+039+WI8\nY/dmC+qXDWr/cIRx7Kc0P1RWTDdER7zEFrh0A9e/4tVIMLUP1Y2X+LbVm9jY\nepe0LO7IbvndTOrfcARBxov+PebJeeu57icWpUh7hn0084Ovwg/3tUpdSiun\n/Hm08DqAJqIV9G1VDhvPM5pt7rBZBeoLEuCKFN9+MJUoPaNAqtCs2BL9NJsB\nrVFEl/l8R45r6ZjuxAZNcs7n5wXM6RmryxaBfZVVDxnyDwk1RlzlrV/uojO9\nTF7o8eNnsihRNk0KBpNmKNILj/4NqL4s1R4XIkbJSg==\n",
+  "kodos": "c+phxKW6RlGLVhjfW4byCfEb5XG2t5ok3u63uMXEFrZAidfJreGGb6kC5GWR\nI7Ls0aa5typ2HrTk9iq/s9sQ73wiuHOgjjEtuHm51+EylmD4rRfwWZ83Bcbr\nVGDDm7n3tDIc5rMYrr/MrByaPhlWY4xm4MTUrIarh/zba19Q4rx9HM6BFhnU\niAyEvsOHHrW7cCj6dBH8y9nAqhI5uBYqXfpOoXoH6rv2hsUnGrI+bULZ8g+y\nIgGTW1IVYojlMfzH1HkZbGrl9TUrgmY/K7KQml7fwVM0eViT9b9i3zrrJ1J5\ndxY/O52pmn0RkkonTwIGrojHrh42P71xBPkZBUMQvA==\n",
+  "burns": "2Lrf1fp/6PVnQhwV6QJ5J8vEEDnQenK1ZIqH47pZVsKhGhvkfcChGsIqgiD/\n1eNjvkidw26xEj+LP2dBvp4DLZ0nTboyMh5VhfkTJDvLNhyBVFl3LBqoYumd\nBVEhuoUvKTJmIBrjreUKM3qyPY2Xbb+p+1gSUmDW8dvLOZT26NokKviaCadh\nq+jaySRj+CicXRFEUQ+UsUilYcNfFrNjmxbKEAqG4B7jHbq805IFUm2ProwS\nKG15fByFCtY+NFnMIXjkXKu29tatIarsHsUwDI/1E3YHhHRPvvOuAjwrpCRV\nH/DNk2/ZNdxkrxeTVxHvSLXqPUA+AVNbz1ukCOZaIQ==\n",
+  "marge": "jTG0G/Bq/TkDzZM74PTteDhSP/vWb+g7BlQKUwo6LbaBcYJsVBu/vvvZ0Nj3\nw+oM9muGx0JVtYKlNRIQk9ga8MZxRpSBLLnqJ+AwTExAEV7/v3a1UY97V7/b\nE2FycbwWFmO6buN6ZDsGwhGk8X5o/m4WUBzHS/hzjp4ZFzHj+lkzKKqTgCIW\n6GjyX94IyXIUE6fxaJhRTPGgg9l/2L6kfmdP+RYryVIvNSoEqe3OP4v8iP7/\nmze21E1otqB8m+QLP2FpnaG/M9R5uhXhMHLhmlyxOHC6InRFG1ZC+Ar5RHCe\nugsrs+etPLt2oynK5eKTa8DIajsFqQ/ce6ld2gBozQ==\n"
 }

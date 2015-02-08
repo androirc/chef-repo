@@ -1,8 +1,8 @@
 {
   "id": "blinkseb",
   "password": {
-    "encrypted_data": "qLNOxuk4h4ckcftAzpVYjVT03rblp/9McVFTnfLaasH037C04dowgk5FjAdo\nBSTPP95xlfEE1paWx3ysEK5QZXDtFa/axMen78OC2m/2x6euZgL5XO29FzDC\nSrmRcAu9i0vY8MOUQBLsjTsR0AaWGAyp6QyB91fL4uSUwGSV1YY=\n",
-    "iv": "B1nFraC4Wj7RdTQHRgapnA==\n",
+    "encrypted_data": "DDSu7+0cUmk8YVVabqz3GfHf8Swx1BzWtNWzwjahwH86yqpgkLI0zQRTRSpt\n87JxAFa5sgJgt6vyR2xLkmLEAuJZ2t0WDmU75e4FFuNZ0mEqCDAgo8M7x9+z\n3V/G1ZrEIrwPcQTgRJY6Ty//PlLLEKK5EMEbfE26edLkdh0feq0=\n",
+    "iv": "l0mcwWly99C0nD+PNrxrIQ==\n",
     "version": 1,
     "cipher": "aes-256-cbc"
   }

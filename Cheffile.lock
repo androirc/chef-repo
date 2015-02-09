@@ -1,0 +1,33 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    chef-client (4.2.0)
+      cron (>= 1.2.0)
+      logrotate (>= 1.2.0)
+      windows (~> 1.11)
+    chef-vault (1.2.0)
+    chef_handler (1.1.6)
+    cron (1.6.1)
+    logrotate (1.8.0)
+    sudo (2.7.1)
+    user (0.3.0)
+    windows (1.36.1)
+      chef_handler (>= 0.0.0)
+
+GIT
+  remote: https://github.com/androirc/chef-madalynn.git
+  ref: master
+  sha: 35aa51615bca7155cc42cfe1eae77b5ad91444cf
+  specs:
+    madalynn (0.1.1)
+      chef-vault (>= 0.0.0)
+      sudo (>= 0.0.0)
+      user (>= 0.0.0)
+
+DEPENDENCIES
+  chef-client (>= 0)
+  chef-vault (>= 0)
+  madalynn (>= 0)
+  sudo (>= 0)
+  user (>= 0)
+

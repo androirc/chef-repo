@@ -35,3 +35,16 @@ user_account 'madalynn' do
   ssh_keys resources(:user_account => 'blinkseb').ssh_keys.concat(resources(:user_account => 'aerialls').ssh_keys)
   notifies :reload, 'ohai[reload_passwd]', :immediately
 end
+
+group 'sudo' do
+  append true
+  group_name 'sudo'
+  members ['madalynn']
+  action :modify
+end
+
+# Password-less sudo for %sudo group
+sudo 'sudo' do
+  group '%sudo'
+  nopasswd true
+end

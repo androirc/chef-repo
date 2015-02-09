@@ -6,7 +6,12 @@ site 'https://supermarket.getchef.com/api/v1'
 cookbook 'chef-client'
 cookbook 'chef-vault'
 cookbook 'sudo'
-cookbook 'user'
+
+cookbook 'user',
+  :git => 'git://github.com/fnichol/chef-user.git'
 
 cookbook 'madalynn',
   :git => 'https://github.com/androirc/chef-madalynn.git'
+
+cookbook 'unattended-upgrades',
+  :git => 'https://github.com/phlipper/chef-unattended-upgrades.git'

@@ -10,14 +10,16 @@ platforms:
 suites:
   - name: default
     run_list:
-      - role[default]
+      - recipe[chef-vault]
+      - recipe[madalynn::users]
     attributes: {
       'dev_mode': true
     }
   - name: bouncer
     run_list:
-      - role[default]
-      - role[bouncer]
+      - recipe[chef-vault]
+      - recipe[madalynn::users]
+      - recipe[madalynn::sshd]
     attributes: {
       'dev_mode': true
     }

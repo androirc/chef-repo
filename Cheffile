@@ -6,6 +6,7 @@ site 'https://supermarket.getchef.com/api/v1'
 cookbook 'chef-client'
 cookbook 'chef-vault'
 cookbook 'sudo'
+cookbook 'ntp', '~> 1.7.0'
 
 cookbook 'user',
   :git => 'git://github.com/fnichol/chef-user.git'

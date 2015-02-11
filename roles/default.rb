@@ -1,6 +1,6 @@
 name "default"
 description "Default configuration of a node"
-run_list "recipe[chef-client::config]", "recipe[chef-client::service]", "recipe[chef-vault]", "recipe[madalynn::users]", "recipe[unattended-upgrades]"
+run_list "recipe[chef-client::config]", "recipe[chef-client::service]", "recipe[ntp]", "recipe[chef-vault]", "recipe[madalynn::users]", "recipe[unattended-upgrades]"
 default_attributes(
   "authorization" => {
       "sudo" => {

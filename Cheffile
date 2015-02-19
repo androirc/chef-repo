@@ -16,3 +16,5 @@ cookbook 'madalynn',
 
 cookbook 'unattended-upgrades',
   :git => 'https://github.com/phlipper/chef-unattended-upgrades.git'
+
+cookbook 'hostsfile', '~> 2.4.5'

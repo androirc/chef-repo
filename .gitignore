@@ -8,3 +8,5 @@
 
 cookbooks/
 tmp/
+.kitchen/
+.kitchen.local.yml

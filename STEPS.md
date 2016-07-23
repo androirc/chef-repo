@@ -50,32 +50,28 @@ knife node run_list add <Node name> 'role[<role name>]'
 
 ## Managing cookbooks
 
-Cookbooks are managed with librarian.
-
-```bash
-gem install librarian-chef
-```
+Cookbooks are managed with Berkshelf. Install ChefDK to have it
 
 * To list all cookbooks:
 
 ```bash
-librarian-chef show
+berks list
 ```
 
 * To list outdated cookbooks:
 
 ```bash
-librarian-chef outdated
+berks outdated
 ```
 
 * To update all cookbooks to latest version:
 
 ```bash
-librarian-chef update
+berks update
 ```
 
 * To upload all cookbooks to the chef-server
 
 ```bash
-knife cookbook upload --all
+berks upload --no-ssl-verify
 ```

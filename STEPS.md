@@ -5,12 +5,12 @@
     - Organization 'madalynn': /home/madalynn/private_keys/madalynn.pem -> equivalent of the chef-validator.pem file
     - Admin user 'blinkseb': /home/madalynn/private_keys/blinkseb.pem -> equivalent of the admin.pem file
 
-``bash
+```bash
     scp flanders:/home/madalynn/private_keys/madalynn.pem /etc/chef-server/chef-validator.pem
     scp flanders:/home/madalynn/private_keys/blinkseb.pem /home/sbrochet/.chef/blinkseb.pem
-``
+```
 
-* Configure knife: ``knife configure``
+* Configure knife: `knife configure`
  - URL is https://flanders.madalynn.eu/organizations/madalynn
  - Admin user name is 'blinkseb'
  - Organization name is 'madalynn'
@@ -21,30 +21,30 @@
 
 Cookbooks are managed with librarian.
 
-``bash
+```bash
 gem install librarian-chef
-``
+```
 
 * To list all cookbooks:
 
-``bash
+```bash
 librarian-chef show
-``
+```
 
 * To list outdated cookbooks:
 
-``bash
+```bash
 librarian-chef outdated
-``
+```
 
 * To update all cookbooks to latest version:
 
-``bash
+```bash
 librarian-chef update
-``
+```
 
 * To upload all cookbooks to the chef-server
 
-``bash
+```bash
 knife cookbook upload --all
-``
+```
